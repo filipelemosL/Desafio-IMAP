@@ -3,11 +3,11 @@ import '../Styles/Menu.css'
 import '../Styles/GlobalStyles.css'
 const Menu = () => {
     return (
-        <header>
+        <header className="row">
             <div className="background">
                 <div className="mainContainer">
                     <div className="explorar">
-                        <p className="cardTitle">Explorar</p>
+                        <p className="cardTitle">Início</p>
                     </div>
                     <div className="informacoes">
                         <p className="cardTitle">Informações</p>
@@ -20,10 +20,10 @@ const Menu = () => {
                         <p className="cardTitle">Explorar</p>
                     </div>
                     <div className="informacoes">
-                        <p className="cardTitle">Informações</p>
+                        <p className="cardTitle">Notícias</p>
                     </div>
                     <div className="participar">
-                        <p className="cardTitle">Participar</p>
+                        <p className="cardTitle">Fale Conosco</p>
                     </div>
                 </div>
             </div>
