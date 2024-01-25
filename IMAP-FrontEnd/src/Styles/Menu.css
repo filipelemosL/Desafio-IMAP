@@ -24,14 +24,18 @@ background: linear-gradient(111deg, rgba(186,206,229,1) 0%, rgba(186,206,229,1) 
     width: 100%;
 }
 
-.explorar, .informacoes, .participar {
+.navtitle {
     /*border: 2px solid blue;*/
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
     width: 150px;
-   
+    cursor: pointer;
+}
+
+.navtitle:hover {
+    color: #3164ad;
 }
 
 .cardTitle {

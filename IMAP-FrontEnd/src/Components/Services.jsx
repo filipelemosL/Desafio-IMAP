@@ -5,6 +5,7 @@ import '../Styles/GlobalStyles.css'
 const Services = () => {
     return (
         <>
+            <h2 className="titulo text-center mt-5 pt-5 mb-5 ">Serviços</h2>
             <div className="cardsContainer row">
                 <div className="cards licitacoes" >
                     <h4 className="cardtext">Licitações</h4>
@@ -25,16 +26,13 @@ const Services = () => {
                     <h4 className="hiddentext">Contratos</h4>
                 </div>
                 <div className="cards dispensas">
-                    <h4 className="cardtext">Dispensas e Inexigibilidades</h4>
-                    <h4 className="hiddentext">Dispensas e Inexigibilidades</h4>
+                    <h4 className="cardtext text-center ">Dispensas e Inexigibilidades</h4>
+                    <h4 className="hiddentext text-center">Dispensas e Inexigibilidades</h4>
                 </div>
                 <div className="cards legislacao">
-                    <h4 className="cardtext">Legislação de Compras</h4>
+                    <h4 className="cardtext text-nowrap">Legislação de Compras</h4>
                     <h4 className="hiddentext">Legislação de Compras</h4>
                 </div>
-            </div>
-            <div className="pca">
-                <h4>Clique aqui para ter acesso ao plano de contratação anual</h4>
             </div>
         </>
     )

@@ -1,9 +1,10 @@
 import React from "react";
+import '../Styles/Carousel.css'
 
 const Carousel = () => {
     return (
         <>
-            <div id="carouselExampleIndicators" class="carouselslide">
+            <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -11,13 +12,13 @@ const Carousel = () => {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="src/assets/legislacao.png" class="d-block w-100" alt="..." />
+                        <img src="src/assets/carro1.png" class="d-block img-banner w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="src/assets/legislacao.png" class="d-block w-100" alt="..." />
+                        <img src="src/assets/carro2.png" class="d-block img-banner w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="src/assets/legislacao.png" class="d-block w-100" alt="..." />
+                        <img src="src/assets/carro3.png" class="d-block img-banner w-100" alt="..." />
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
