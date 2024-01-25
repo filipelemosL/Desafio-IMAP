@@ -5,7 +5,7 @@ import Services from './Components/Services'
 import Carousel from './Components/Carousel'
 import Charts from './Components/Charts'
 import Footer from './Components/Footer'
-
+//app
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Menu />
