@@ -13,6 +13,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Services />
     <Charts />
     <Footer />
-   
   </React.StrictMode>,
 )
