@@ -1,0 +1,32 @@
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .chartcard {
+    border: 1px solid red;
+  }
+  
+  #chart {
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .chart-text {
+    text-align: center;
+    width: 300px
+  }
+  
+  .chart-text h2 {
+    color: #000;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .chart-text p {
+    color: #333;
+    font-size: 16px;
+  }
