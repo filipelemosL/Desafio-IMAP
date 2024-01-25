@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "@amcharts/amcharts5": "^5.7.7",
+    "@amcharts/amcharts5-fonts": "^5.0.1",
+    "@amcharts/amcharts5-geodata": "^5.1.2",
     "apexcharts": "^3.45.2",
     "chart.js": "^4.4.1",
     "highcharts": "^11.3.0",
