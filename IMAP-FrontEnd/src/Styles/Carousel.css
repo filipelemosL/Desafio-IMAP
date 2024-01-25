@@ -1,5 +1,8 @@
 .carousel-item {
+    margin-top: 10px;
     height: 350px;
+    width: 99%;
+    padding-left: 15px;
 }
 
 .img-banner{

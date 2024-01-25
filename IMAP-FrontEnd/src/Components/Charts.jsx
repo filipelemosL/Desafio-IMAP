@@ -1,100 +1,19 @@
 import React from "react";
 import '../Styles/Charts.css';
 
-var options = {
-    series: [{
-        name: 'Inflation',
-        data: [2, 3, 4, 10, 4, 3, 3, 2, 1, 0, 0, 0]
-    }],
-    chart: {
-        height: 300,
-        type: 'bar',
-    },
-    plotOptions: {
-        bar: {
-            borderRadius: 10,
-            dataLabels: {
-                position: 'top', // top, center, bottom
-            },
-        }
-    },
-    dataLabels: {
-        enabled: true,
-        formatter: function (val) {
-            return val;
-        },
-        offsetY: -20,
-        style: {
-            fontSize: '12px',
-            colors: ["#304758"]
-        }
-    },
-
-    xaxis: {
-        categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-        position: 'top',
-        axisBorder: {
-            show: false
-        },
-        axisTicks: {
-            show: false
-        },
-        crosshairs: {
-            fill: {
-                type: 'gradient',
-                gradient: {
-                    colorFrom: '#D8E3F0',
-                    colorTo: '#BED1E6',
-                    stops: [0, 100],
-                    opacityFrom: 0.4,
-                    opacityTo: 0.5,
-                }
-            }
-        },
-        tooltip: {
-            enabled: true,
-        }
-    },
-    yaxis: {
-        axisBorder: {
-            show: false
-        },
-        axisTicks: {
-            show: false,
-        },
-        labels: {
-            show: false,
-            formatter: function (val) {
-                return val;
-            }
-        }
-
-    },
-    title: {
-        text: 'Número de Licitações',
-        floating: true,
-        offsetY: 330,
-        align: 'center',
-        style: {
-            color: '#000'
-        }
-    }
-};
-
-var chart = new ApexCharts(document.querySelector("#chart"), options);
-chart.render();
 
 const Charts = () => {
     return (
         <>
-            <div className="chartcontainer">
-                <div className="chartcontainer">
-                    <div id='chart'></div>
+            <div className="dashboard">
+                <div className="chart">
+                    <img className='donut' src='src/assets/licitações.svg'></img>
                 </div>
-                <div className="charttext">
-                    <p>Ao longo do ano de 2022, acompanhamos de perto a dinâmica das licitações da prefeitura, refletida neste gráfico mensal. Cada barra representa o número de licitações realizadas em um determinado mês, proporcionando insights valiosos sobre a atividade contratual.</p>
+                <p>O gráfico revela uma situação marcante, com 80% das licitações atualmente em aberto, indicando uma significativa predominância de processos ainda não concluídos. Esta proporção destaca a extensão das oportunidades que estão em fase de avaliação e decisão.</p>
+                <div className="chart">
+                    <img className='bars' src='src/assets/licitaes-por-ms.svg'></img>
                 </div>
-
+                <p>Ao longo do ano fictício de 2022, acompanhamos de perto a dinâmica das licitações da prefeitura, refletida neste gráfico mensal. Cada barra representa o número de licitações realizadas em um determinado mês, proporcionando insights valiosos sobre a atividade contratual.</p>
             </div>
         </>
     )
